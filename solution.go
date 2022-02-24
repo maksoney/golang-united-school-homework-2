@@ -4,6 +4,10 @@ import "math"
 
 type sidesType int8
 
+const SidesTriangle sidesType = 3
+const SidesSquare sidesType = 4
+const SIdesCircle sidesType = 0
+
 func CalcSquare(sideLen float64, sidesNum sidesType) float64 {
 	var square float64 = 0
 
