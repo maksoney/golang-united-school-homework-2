@@ -8,7 +8,7 @@ type mySidesType int
 // const SidesSquare sidesType = 4
 // const SidesCircle sidesType = 0
 
-func MyCalcSquare(sideLen float64, sidesNum mySidesType) float64 {
+func CalcSquare(sideLen float64, sidesNum mySidesType) float64 {
 	var square float64
 
 	switch sidesNum {
