@@ -2,9 +2,13 @@ package square
 
 import "math"
 
-type sidesType int
+type mySidesType int
 
-func CalcSquare(sideLen float64, sidesNum sidesType) float64 {
+// const SidesTriangle sidesType = 3
+// const SidesSquare sidesType = 4
+// const SidesCircle sidesType = 0
+
+func MyCalcSquare(sideLen float64, sidesNum mySidesType) float64 {
 	var square float64
 
 	switch sidesNum {
